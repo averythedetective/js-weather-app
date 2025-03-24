@@ -1,5 +1,5 @@
 body {
-  background: linear-gradient(#8C52FF, #b7a4dd);
+  background: #b5a3d9;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   display: flex;
   align-items: center;
@@ -9,7 +9,7 @@ body {
 }
 
 #weather-container {
-  background: linear-gradient(#b7a4dd, #8C52FF);
+  background: #8C52FF;
   max-width: 400px;
   padding: 30px 50px;
   border-radius: 15px;
@@ -50,7 +50,7 @@ button {
 }
 
 button:hover {
-  background: #8C52FF;
+  background: #b5a3d9;
   color: white;
 }
 
@@ -78,6 +78,7 @@ button:hover {
   background-color: #8C52FF;
   padding: 15px;
   border-radius: 10px;
+  overflow-x: auto;
 }
 
 .hourly-item {
